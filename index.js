@@ -1,12 +1,12 @@
 const express = require('express')
-const router = require('./routers')
+// const router = require('./routers')
 
 
 
 const app = express()
 
-app.use(router)
-
+// app.use(router)
+app.get('/getmethod', (req, res) => res.send('Hello World!'))
 
 
 
