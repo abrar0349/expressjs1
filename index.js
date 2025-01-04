@@ -5,7 +5,7 @@ const router = require('./routers')
 
 const app = express()
 
-app.use(router)
+app.use('/api',router)
 
 
 
